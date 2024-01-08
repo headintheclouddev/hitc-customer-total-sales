@@ -1,0 +1,13 @@
+<scheduledscript scriptid="customscript_set_total_sales">
+    <name>Set Customer Total Sales - SS - Done</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/hitc/setTotalSalesSS_done.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy1">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <status>NOTSCHEDULED</status>
+            <title>Set Customer Total Sales - Done</title>
+        </scriptdeployment>
+    </scriptdeployments>
+</scheduledscript>

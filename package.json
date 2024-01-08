@@ -1,0 +1,9 @@
+{
+  "name": "video-sdf-linux-query",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@hitc/netsuite-types": "^2023.2.5",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
