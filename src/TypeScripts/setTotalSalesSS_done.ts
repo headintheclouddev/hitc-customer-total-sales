@@ -9,6 +9,7 @@
 import log = require('N/log');
 import query = require('N/query');
 import record = require('N/record');
+
 export function execute() {
     const customerResults: { entity: number }[] = query.runSuiteQL({ // Find customers who had a sales order today
         query: `SELECT entity FROM transaction WHERE tranDate = BUILTIN.RELATIVE_RANGES('TODAY', 'START') AND type IN ('CashSale', 'CustInvc', 'CustCred')`
